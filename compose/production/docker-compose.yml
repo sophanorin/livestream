@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+    livestream:
+        build: ./
+        image: camemis/livestream
+        container_name: livestream
+        restart: unless-stopped
+        volumes:
+            - ${PWD}/../..:/livestream
+        network_mode: "host"
+        environment:
+            - DOCKER_DEFAULT_PLATFORM=linux/amd64

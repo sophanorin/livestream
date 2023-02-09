@@ -1,0 +1,6 @@
+export const WHITEBOARD = "WHITEBOARD";
+export const LATEX = "LATEX";
+export const CLASS_DOCUMENT = "CLASS DOCUMENT";
+export const YOUTUBE_SHARING = "YOUTUBE SHARING";
+export const SPEAKER_PEER = "SPEAKER PEER";
+export const SCREEN_SHARING = "SCREEN SHARING";

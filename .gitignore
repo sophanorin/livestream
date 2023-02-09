@@ -1,0 +1,17 @@
+node_modules/
+nginx/
+dist
+
+
+.DS_Store
+
+/server/files
+/server/public/
+/app/build/
+
+
+server/.env
+.profile
+.vscode
+
+package-lock.json

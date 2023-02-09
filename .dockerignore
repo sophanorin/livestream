@@ -1,0 +1,11 @@
+/server/public/
+/server/node_modules/
+/server/package-lock.json
+
+/app/build/
+/app/node_modules/
+/app/package-lock.json
+
+node_modules
+
+dist
